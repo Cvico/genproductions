@@ -226,7 +226,7 @@ elif Period == "Run3":
                 [2600, 335700, 'NNPDF40_nlo_nf_4_pdfas', 1],
                 [4000, 13091, 'CT14nnlo_NF4', 1],
                 [4001, 13191, 'CT14nlo_NF4', 1],
-                [5000, 27810, 'MSHT20nnlo_nf4', 65],
+                #[5000, 27810, 'MSHT20nnlo_nf4', 65],
                 [5100, 27870, 'MSHT20nnlo_as_smallrange_nf4', 3],
                 [5200, 27610, 'MSHT20nlo_nf4', 1],
                 [6000, 93700, 'PDF4LHC21_40_pdfas_nf4', 43],

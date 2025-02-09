@@ -24,7 +24,7 @@ POWHEGRES_SOURCE = "powhegboxRES_rev4060_date20240610.tar.gz"
 
 rootfolder = os.getcwd()
 scram_arch = os.environ['SCRAM_ARCH']
-scram_os = scram_arch.split('_')[0]
+scram_os = "el8"#scram_arch.split('_')[0]
 want_os = { # https://batchdocs.web.cern.ch/local/submit.html#os-selection-via-containers
     'slc6': 'el7',
     'slc7': 'el7',

@@ -1,0 +1,63 @@
+numevts NEVENTS
+iseed SEED
+ih1 1
+ih2 1
+ebeam1 6800
+ebeam2 6800
+lhans1 325500
+lhans2 325500
+facscfact 1
+renscfact 1
+withnegweights 1
+withdamp 1
+use-old-grid 1
+use-old-ubound 1
+ncall1 100000
+itmx1 5
+ncall2 100000
+itmx2 5
+foldcsi 5
+foldy 5
+foldphi 1
+icsimax 1
+iymax 1
+nubound 100000
+xupbound 2
+
+# User settings
+ttype 1
+hdamp 418 
+
+wmass 80.4
+wwidth 2.085
+sthw2 0.231295
+alphaem_inv 137.0360098
+tdec/elbranching 0.1083
+tdec/emass 0.00051
+tdec/mumass 0.1057
+tdec/taumass 1.777
+bottomthr 5.06
+bottomthrpdf 5.06
+charmthr 1.525
+charmthrpdf 1.525
+CKM_Vud 0.97420
+CKM_Vus 0.2243
+CKM_Vub 0.00394
+CKM_Vcd 0.218
+CKM_Vcs 0.997
+CKM_Vcb 0.0422
+CKM_Vtd 0.0081
+CKM_Vts 0.0394
+CKM_Vtb 1.0
+
+# User settings
+topmass 172.5
+topwidth 1.311
+
+pdfreweight 0
+storeinfo_rwgt 0
+
+rwl_group_events 2000
+lhapdf6maxsets 50
+rwl_file 'pwg-rwl.dat'
+rwl_format_rwgt 1
